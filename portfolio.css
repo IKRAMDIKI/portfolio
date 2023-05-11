@@ -1,0 +1,444 @@
+
+
+html{
+  scroll-behavior: smooth;
+      }
+      /*general proprties*/
+body{
+     width: 100%;
+     position: relative;
+     font-family: sans-serif;
+     overflow-x: hidden;
+     overflow-y: scroll;
+     font-family: 'Source Sans Pro',sans-serif;
+     padding-bottom: 40px;
+     background-color:#FAEBEFFF; 
+     margin:0;padding:0
+   }
+   section {
+    padding-top: 15px;
+    margin-top: -15px;
+} 
+   /*not to have the underline of the link a*/
+   a{
+     text-decoration: none;
+     color: white;
+   }
+   .style{
+    text-align: center;
+    font-size: large;
+    font-family: sans-serif;
+    font-weight: bold;
+   }
+ .header-items{
+     display: flex;
+     flex-direction: row;
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 9%;
+     background: rgb(255, 255, 255);
+     overflow: hidden;
+     z-index: 100;/*so the left header can go under the top header*/
+ }/*fixing the profile image*/
+ .left-header{
+  display: flex;
+ }
+ .linka{
+  color:  #333D79FF;
+  font-size: 10000px;
+  font-weight: bolder;
+  
+ }
+ a{
+  color: rgb(12, 27, 110);
+  background-color: #0e457c;
+}
+ .imgprofile{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    margin-right: 10px;
+    margin-left: 50px;
+    margin-top: 4px;
+}/*ikram diki p*/
+.divp p:hover{
+  color:   #333D79FF;
+ }
+ a{
+  color: #000;
+ }
+ .divp{
+  display: flex;
+  width: 100px;
+  margin-bottom: 5px;
+  font-size: 17px;
+  font-weight: 700;
+  transition: color .3s;
+  cursor: pointer;
+ }
+     .nav-bar{
+      display: flex;
+      flex-direction: row;
+      margin-left: 400px;
+      font-weight: bold; 
+    }
+    li{
+      list-style: none;
+    display: flex;
+    align-items: space-between;
+    margin-left: 60px;
+  }
+     /*li of navbar*/
+  .liclass a:hover{
+    color:  #333D79FF;
+     }
+   .liclass a{
+     display: flex;
+     text-decoration: none;
+     color: #000000;
+     text-align: right;
+     border-bottom: 1px  #eee;
+     font-weight: 900;
+     letter-spacing: 2px;
+     transition: color .3s
+   }
+
+  .homepage{
+    margin-left: 197px;
+    padding: 210px;
+    }
+    h1{
+      font-family: sans-serif;
+      font-size: 54px;
+      font-weight: bold;
+      letter-spacing: 1px;
+    }  
+ h3{
+  font-family: sans-serif;
+  font-size: 20px;
+}
+.button2{
+      background-color:#333D79FF;
+      color: white;
+      border: none;
+      height: 45px;
+      width: 200px;
+      border-radius: 5px;
+      letter-spacing: 1px;
+      margin-right: 10px;
+      margin-left: 160px;
+      font-weight: 700px;
+      box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+      margin-top: 42px;
+  }
+  .lefticons{
+    position: absolute;
+    left: 0;
+    top: 185px;
+    background: #fff;
+    padding:20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    }
+    .icon1{
+      display: block;
+      width: 50px;
+      border-radius: 25px;
+      margin-bottom: 12px;
+    }
+    .icon2{
+      display: block;
+      width: 50px;
+      border-radius: 25px;
+      margin-bottom: 12px;
+    
+    }
+    .icon3{
+      display: block;
+      width: 50px;
+      border-radius: 25px;
+      margin-bottom: 12px;
+    
+    }
+    .icon4{
+        display: block;
+      width: 50px;
+      border-radius: 25px;
+      margin-bottom: 12px;
+    }/*this is ABOUT ME part*/
+    .aboutme{
+      display: block;
+      font-size: 4rem;
+      letter-spacing: 1px;
+      letter-spacing: 3px;
+      text-align: center;
+      margin-bottom: 3.5rem;
+      color: #111;
+      }
+      .divp1{
+        display: block;
+        text-align: center;
+        font-size: 35px;
+        font-weight: 500;
+        max-width: 80rem;
+        margin: auto;
+        line-height: 1.6;
+        }     
+      .aboutme2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+       grid-gap: 8rem;
+       }
+       h3{
+        font-weight: 700;
+        font-size: 2.8rem;
+        margin-bottom: 3rem;
+        }
+      .pclass{
+      font-size: large;
+        width: 400px;
+        letter-spacing: 1px;
+      }
+      .aboutmepart1{
+        margin-left: 25px;
+      }
+      .button3{
+        background-color:  #333D79FF;
+        color: white;
+        border: none;
+        height: 45px;
+        width: 200px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+        font-weight: 700px;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  }
+  
+  .hh3{
+    margin-left: 98px;
+      }
+    .myskillstitle{
+     display:block;
+     } /* this one is for lis of my skills*/
+     .li1{
+      display: inline-block;
+      width: 140px;
+      padding: 1rem 2rem;
+      margin-bottom: 8px;
+      font-size: 1.6rem;
+      background: rgba(88, 86, 86, 0.2);
+      border-radius: 14px;
+      font-weight: 600;
+      color: #080808;
+    }
+    /*the PROJECT part*/
+    .img2{
+      width: 700px;
+      border-radius: 6px;
+      margin-left: 20px;
+    }
+    .containerofprojects{
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+     grid-gap: 8rem;
+    }
+  .projectp{
+      display: grid;
+      width: 500px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    margin-top: 40px;
+  }
+
+ 
+
+
+
+
+
+  
+     
+ 
+
+ 
+
+ 
+ 
+ 
+  
+ 
+   
+
+
+ /*CONTACT PART*/
+ .divp2{
+  font-size: 17px;
+  letter-spacing: 1px;
+  text-align: center;
+  margin-bottom: 50px;
+ }
+ input[type=text], select, textarea {
+  width: 500px; 
+  padding: 12px; 
+  border: 1px solid #928e8e;
+  border-radius: 5px; 
+  box-sizing: border-box;
+  margin-top: 0; 
+  margin-bottom: 40px;
+  resize: vertical;
+  margin-left: 40px;
+  }
+  input[type=submit] {
+    background-color: #FCF6F5FF;
+        color: black;
+        font-weight: bold;
+        border: none;
+        text-transform: uppercase;
+        height: 45px;
+        width: 200px;
+        border-radius: 5px;
+        letter-spacing: 1px;
+        margin-bottom: 4px;
+        font-weight: 700px;
+        cursor: pointer;
+        margin-left: 40px;
+        box-shadow: 0 5px 15px 0 rgb(0 0 0 / 15%);
+  }
+  .contact__form1{
+    height: 170px;
+  }
+  /*fixing the contact label*/
+ label{
+  color: white;
+  margin-left: 40px;
+}
+ input {
+   width: 150px;
+   height: 55px;
+  border-radius: 6px;
+  margin-left: 40px;
+ }
+ input::placeholder{
+  font-weight: bold;
+ }
+ .form{
+ border-radius: 8px;
+ background-color: #333D79FF;
+ margin-left: 350px;
+ margin-right: 400px;
+ margin-bottom:400px;
+ padding-bottom: 50px;
+ padding-top: 50px;
+ margin-top: 10px;
+ padding-bottom: 80px;
+ padding-top: 80px;
+ }
+  /*FOOTER PART*/
+  footer{
+    width: 100%;
+     height:250px; 
+     background: rgb(255, 255, 255);
+   }
+  .footer1{
+   display: flex;
+   justify-content: space-between;   
+   background: rgb(255, 255, 255);
+   color: #000000;
+  }
+  .sm{
+    font-size: 30px;
+    text-decoration: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 10px;
+    margin-bottom: 0; 
+    margin-left: 200px;
+}
+  .socialmediaicons{
+    margin-left: 195px;
+  }
+  .main-footer__icon1{
+    width: 50px;
+    }/*facebook*/
+    .main-footer__icon2{
+    width: 50px;
+     margin-left: 10px;    
+  }
+  .main-footer__icon3{
+    width: 50px;
+    border-radius: 25px;
+    margin-left: 10px;
+    }
+    .main-footer__icon4{
+      width: 50px;
+      border-radius: 25px;
+      margin-left: 10px;
+      }
+      .p1{
+        margin-left: 15px;
+      }
+  .mailmediv{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 14px; 
+  }
+  .callmediv{
+  display: flex;
+  margin-bottom: 65px;
+  margin-top: 10px;
+  margin-left: 14px;}
+/*the mail image*/
+ .img3{
+  width: 55px;
+  border-radius: 31px;
+  display: inline-block;
+  margin-right: 20px;
+  background-color: rgb(255, 255, 255);
+}/*the call me img*/
+.img4{
+  display: inline-block;
+  width: 50px;
+  border-radius: 25px;
+  margin-top: 2px;
+  margin-right: 22px;
+  background-color: rgb(255, 255, 255);
+
+}
+.mailme{
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 500;
+}
+.callme{
+  display: inline-block;
+  margin-top: 16px;
+  font-weight: 500;
+}
+/* if you wish to give every section a color
+ .home-section{
+   background-color: #FFE6E8;
+ }
+ .aboutme-section{
+   background-color: #FFE4E1;
+ }
+ .projects-section{
+   background-color: #FFDFDD	;
+ 
+ }
+ .contact-section{
+   background-color: #FBCFCD;
+   margin-bottom: 0;
+ }*/
+
+ 
+ 
+  
+ 
+ 
+ 
+ 
